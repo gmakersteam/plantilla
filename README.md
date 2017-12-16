@@ -25,12 +25,12 @@ You may serve it with a static server:
 * `yarn add --dev gh-pages` 
 
 Add the following script in your package.json.
-´´´js
+```js
 // ...
 "scripts": {
 // ...
 "predeploy": "npm run build",
 "deploy": "gh-pages -d build"
 }
-´´´
+```
 * `yarn run deploy` 
